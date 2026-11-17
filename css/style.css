@@ -1093,13 +1093,15 @@ body:not(.is-revealed) #site * {
 
 .fact-v {
   font-family: var(--f-title);
-  font-size: clamp(18px, 4.5vw, 22px);
+  font-size: clamp(22px, 5.5vw, 28px);
+  font-weight: 600;
   color: var(--ink);
   line-height: 1.4
 }
 
 .fact-s {
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 500;
   color: var(--ink-soft)
 }
 
@@ -1260,7 +1262,8 @@ body:not(.is-revealed) #site * {
 }
 
 .tl-date {
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: 500;
   letter-spacing: .24em;
   text-transform: uppercase;
   color: var(--brass)
@@ -1276,7 +1279,8 @@ body:not(.is-revealed) #site * {
 }
 
 .tl-meta {
-  font-size: 16px;
+  font-size: 19px;
+  font-weight: 600;
   color: var(--maroon);
   margin-bottom: 8px
 }
@@ -1745,7 +1749,8 @@ body:not(.is-revealed) #site * {
 
 .lux-date {
   font-family: var(--f-title);
-  font-size: clamp(20px, 5vw, 26px);
+  font-size: clamp(24px, 6vw, 32px);
+  font-weight: 600;
   color: rgba(245, 239, 227, .9);
   margin-top: 4px
 }
@@ -1761,23 +1766,24 @@ body:not(.is-revealed) #site * {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 500;
   letter-spacing: .26em;
   text-transform: uppercase;
   color: var(--brass)
 }
 
 .lux-k .ico {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   color: var(--gold-lt);
   stroke-width: 4.4
 }
 
 .lux-v {
   font-family: var(--f-display);
-  font-weight: 400;
-  font-size: clamp(26px, 6.5vw, 36px);
+  font-weight: 600;
+  font-size: clamp(30px, 7.5vw, 42px);
   color: #F5EFE3;
   margin-top: 10px;
   line-height: 1.25
@@ -1790,7 +1796,8 @@ body:not(.is-revealed) #site * {
 }
 
 .lux-note {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
   color: rgba(245, 239, 227, .78);
   margin-top: 16px;
   line-height: 1.8
@@ -3151,8 +3158,8 @@ body.finale-particles .finale-fallback {
 }
 
 .tl-meta .ico {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   color: var(--antique);
   stroke-width: 4.4
 }
