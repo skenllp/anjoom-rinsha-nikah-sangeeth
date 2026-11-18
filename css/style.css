@@ -3192,12 +3192,12 @@ body.finale-particles .finale-fallback {
 
 .family-parents {
   color: var(--burgundy) !important;
-  white-space: nowrap;
+  text-wrap: balance;
 }
 
 .family-grandparents {
   margin-top: 8px;
-  white-space: nowrap;
+  text-wrap: balance;
 }
 
 .scene--ruby .family-foot {
@@ -3380,7 +3380,7 @@ body.finale-particles .finale-fallback {
   font-size: clamp(18px, 4.8vw, 26px);
   letter-spacing: .2em;
   text-indent: .2em;
-  white-space: nowrap;
+  text-wrap: balance;
 }
   text-transform: uppercase;
   color: var(--champagne)
