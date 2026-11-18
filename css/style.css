@@ -3378,6 +3378,8 @@ body.finale-particles .finale-fallback {
   font-size: clamp(18px, 4.8vw, 26px);
   letter-spacing: .2em;
   text-indent: .2em;
+  white-space: nowrap;
+}
   text-transform: uppercase;
   color: var(--champagne)
 }
