@@ -3191,11 +3191,13 @@ body.finale-particles .finale-fallback {
 }
 
 .family-parents {
-  color: var(--burgundy) !important
+  color: var(--burgundy) !important;
+  white-space: nowrap;
 }
 
 .family-grandparents {
-  margin-top: 8px
+  margin-top: 8px;
+  white-space: nowrap;
 }
 
 .scene--ruby .family-foot {
